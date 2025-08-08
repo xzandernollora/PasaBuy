@@ -15,7 +15,7 @@ const data = [
   },
   {
     id: 2,
-    name: "Canned Goods",
+    name: "Instand Foods",
     count: "10 Products",
     img: "/assets/Category_2.png",
   },

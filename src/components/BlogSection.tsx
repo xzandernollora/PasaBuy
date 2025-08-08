@@ -2,22 +2,40 @@ import BlogCard from "./BlogCard";
 
 const data = [
   {
-    img: "/post_1.webp",
-    title: "Healthy Food Healthy Life",
-    date: "Aug 27, 2023",
-    comment: 8,
+    img: "/assets/Blog_1.JPG",
+    title: "Top 10 Healthy Snacks in 2025",
+    date: "Aug 02, 2025",
+    comment: 12,
   },
   {
-    img: "/post_2.webp",
-    title: "Healthy Food Healthy Life",
-    date: "Aug 25, 2023",
-    comment: 1,
+    img: "/assets/Blog_2.png",
+    title: "New Superfoods You Must Try",
+    date: "Aug 05, 2025",
+    comment: 9,
   },
   {
-    img: "/post_3.webp",
-    title: "Healthy Food Healthy Life",
-    date: "Aug 30, 2023",
+    img: "/assets/Blog_3.png",
+    title: "How to Meal Prep for Busy Weeks",
+    date: "Aug 06, 2025",
+    comment: 15,
+  },
+  {
+    img: "/assets/Blog_4.png",
+    title: "5 Easy Plant-Based Recipes",
+    date: "Aug 07, 2025",
+    comment: 4,
+  },
+  {
+    img: "/assets/Blog_5.png",
+    title: "Quick and Healthy Breakfast Ideas",
+    date: "Aug 08, 2025",
     comment: 6,
+  },
+  {
+    img: "/assets/Blog_6.png",
+    title: "How to Store Fruits & Veggies Properly",
+    date: "Aug 09, 2025",
+    comment: 3,
   },
 ];
 

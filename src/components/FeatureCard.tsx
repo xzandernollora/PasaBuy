@@ -1,9 +1,10 @@
 interface propsType {
   title: string;
   icon: React.ReactNode;
+  description: string;
 }
 
-const FeatureCard: React.FC<propsType> = ({ title, icon }) => {
+const FeatureCard: React.FC<propsType> = ({ title, icon, description }) => {
   return (
     <div className="flex items-center gap-4">
       <div className="bg-gray-300 w-[50px] h-[50px] text-accentDark text-[24px] grid place-items-center rounded-full">
@@ -11,7 +12,7 @@ const FeatureCard: React.FC<propsType> = ({ title, icon }) => {
       </div>
       <div>
         <h3 className="text-accent font-medium text-xl">{title}</h3>
-        <p className="text-gray-500 text-[14px]">Lorem, ipsum dolor.</p>
+        <p className="text-gray-500 text-[14px]">{description}</p>
       </div>
     </div>
   );

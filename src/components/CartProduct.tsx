@@ -4,9 +4,10 @@ interface propsType {
   img: string;
   name: string;
   price: string;
+  onRemove: (name: string) => void; // ✅
 }
 
-const CartProduct: React.FC<propsType> = ({ img, name, price }) => {
+const CartProduct: React.FC<propsType> = ({ img, name, price, onRemove }) => {
   return (
     <div className="flex justify-between items-center">
       <div className="flex items-center gap-4">
@@ -16,7 +17,10 @@ const CartProduct: React.FC<propsType> = ({ img, name, price }) => {
           <p className="text-gray-600">1 x {price}</p>
         </div>
       </div>
-      <RxCross1 className="cursor-pointer" />
+      <RxCross1
+        className="cursor-pointer"
+        onClick={() => onRemove(name)} // ✅ trigger remove
+      />
     </div>
   );
 };

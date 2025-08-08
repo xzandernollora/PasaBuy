@@ -4,8 +4,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        accent: "#179957",
-        accentDark: "#184D47",
+        accent: "#FFA726",
+        accentDark: "#FB8C00",
       },
       container: {
         center: true,
